@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace MVAPINASAJR.Models
 {
-    internal class ApodJR
+    public class ApodJR
     {
 
-        public class Rootobject
-        {
+      
             public string date { get; set; }
             public string explanation { get; set; }
             public string hdurl { get; set; }
@@ -18,8 +17,10 @@ namespace MVAPINASAJR.Models
             public string service_version { get; set; }
             public string title { get; set; }
             public string url { get; set; }
-        //sasas
-        }
+
+      
+            //sasas
+        
 
     }
 }

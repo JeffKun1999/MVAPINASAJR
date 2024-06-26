@@ -3,13 +3,13 @@
     x:Class="MVAPINASAJR.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:MVAPINASAJR"
+    xmlns:local="clr-namespace:MVAPINASAJR.Views"
     Shell.FlyoutBehavior="Disabled"
     Title="MVAPINASAJR">
 
     <ShellContent
         Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
+        ContentTemplate="{DataTemplate local:ApodPage2JR}"
         Route="MainPage" />
 
 </Shell>
